@@ -54,8 +54,49 @@ print(nums.count(7))
 nums.remove(7)
 nums.reverse()
 
-
-i=1
+i = 1
 while i <= 5:
     print(i)
-    i=i+1
+    i = i + 1
+
+i = 0
+while True:
+    print(i)
+    i = i + 1
+    if i == 5:
+        break
+print("just")
+
+i = 5
+while True:
+    print(i)
+    i = i - 1
+    if i <= 2:
+        break
+
+print("just")
+
+i = 5
+while True:
+    print(i)
+    i = i - 1
+    if i == 2:
+        print("skip 2")
+        continue
+    if i == 1:
+        print("break")
+        break
+
+letters = ['a', 'b', 'c']
+
+for l in letters:
+    print(l)
+
+listt = [2, 3, 4, 5, 6, 7]
+
+for x in listt:
+    if x % 2 == 1 and x > 4:
+        print(x)
+        break
+
+
